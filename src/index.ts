@@ -7,8 +7,8 @@ class Test {
     static connect = async (): Promise<Sdk> => {
 
         const creds: ClientCredentials = {
-            clientId: "3a9f225f-b8d6-455c-bc41-6387fcd38dac",
-            clientSecret: "tWUsLLKKItRWsKtUsIRPtUsQKP2DsKMtUVsMQOtSsINtSsPtP2EtUS2LtWRsFQtSSsQF2asLNF2IsItW2PsQRR2asJKRJtVsN"
+            clientId: "YOUR CLIENT ID",
+            clientSecret: "YOUR CLIENT SECRET "
         }
 
         const client = await Sdk.connectWithClientCredentials(creds)
